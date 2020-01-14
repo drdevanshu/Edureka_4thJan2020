@@ -17,11 +17,12 @@ public class BasicSeleniumCommands {
 	
 	//Initialize or Instantiate or Open a browser	
 	//Chrome
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\abhre\\Documents\\GSync\\PCSync\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Dev\\Desktop\\drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		
+	}
+}
 		//Firefox
-		System.setProperty("webdriver.gecko.driver", "C:\\Users\\abhre\\Documents\\GSync\\PCSync\\Drivers\\geckodriver.exe");
+		/*System.setProperty("webdriver.gecko.driver", "C:\\Users\\abhre\\Documents\\GSync\\PCSync\\Drivers\\geckodriver.exe");
 		WebDriver driver1 = new FirefoxDriver();
 		
 		//Close & Quit Commmands
@@ -47,4 +48,4 @@ public class BasicSeleniumCommands {
 		
 
 	}	
-}
+}*/
